@@ -48,7 +48,7 @@
                     <div class="col-md-4 col-sm-12 mt-5 text-center">
                         <div class="card h-100">
                             <div class="card-header bg-red100 text-light text-left">
-                                <b> Kegiatan Donor </b> | 16 - 1 - 2022
+                                <b> Kegiatan Donor </b> | 06 - 12 - 2021
                             </div>
                             <form action="" class="overflow-auto p-3">
                                 <div class="card-body py-0 pt-3">
@@ -105,6 +105,118 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 mt-5 text-center">
+                        <div class="card">
+                            <div class="card-header bg-red100 text-light text-left">
+                                FAQ's
+                            </div>
+                            <div class="card-body text-left">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header bg-red100" id="headingOne">
+                                            <p class="text-light mb-0" type="button" data-toggle="collapse"
+                                               data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Mengapa Harus Bayar Saat Kita Butuh Darah dari PMI?
+                                            </p>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Biaya yang kita keluarkan perkantong darah sebenarnya adalah biaya penggantian
+                                                pemeliharaan darah, supaya kondisinya tetap sama seperti saat berada dalam tubuh
+                                                kita. Biaya ini yang kita kenal dgn nama <b>"BPPD"</b> atau Biaya Penggantian
+                                                Pengelolaan
+                                                Darah.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+
+                                        <div class="card-header bg-red100" id="headingTwo">
+                                            <p class="text-light mb-0" type="button" data-toggle="collapse"
+                                               data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                Mengapa Kita Perlu Donor Darah?
+                                            </p>
+                                        </div>
+
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <b>Kebutuhan yang besar </b>: Setiap delapan detik, ada satu orang yang
+                                                membutuhkan
+                                                transfusi darah di Indonesia. <br>
+                                                <b>Pemeriksaan kesehatan gratis </b>: Sebelum mendonorkan darah, petugas akan
+                                                memeriksa
+                                                suhu tubuh, denyut nadi, tekanan darah dan kadar hemoglobin Anda. <br>
+                                                <b>Tidak menyakitkan </b>: Ya Anda memang akan merasa sakit. Namun, rasa sakit
+                                                itu
+                                                tidak
+                                                seberapa dan akan hilang dengan cepat.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+
+                                        <div class="card-header bg-red100" id="headingThree">
+                                            <p class="text-light mb-0" type="button" data-toggle="collapse"
+                                               data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                Kenapa Ketika Membutuhkan Darah Prosesnya Lama ?
+                                            </p>
+                                        </div>
+
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Proses permintaan darah transfusi di Palang Merah Indonesia (PMI) memerlukan
+                                                proses
+                                                <b>"Crossmatch"</b> yaitu uji serasi silang antara darah pasien dengan darah
+                                                donor
+                                                yang
+                                                diberikan. Crossmatch ini bertujuan untuk melihat apakah darah pasien sesuai
+                                                dengan
+                                                darah donor sehingga tidak ada efek yang merugikan pasien transfusi darah
+                                                tersebut.Secara keseluruhan darah pendonor baru siap diberikan kepada seseorang
+                                                itu
+                                                butuh waktu paling lama sekitar 3 jam
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+
+                                        <div class="card-header bg-red100" id="headingFour">
+                                            <p class="text-light mb-0" type="button" data-toggle="collapse"
+                                               data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                Apa Yang Harus Kita Persiapkan Sebelum Donor ?
+                                            </p>
+                                        </div>
+
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Kita memerlukan tidur yang nyenyak di malam sebelum mendonor, sarapan pagi atau
+                                                makan siang sebelum mendonor. Banyak minum seperti jus, susu sebelum mendonor.
+                                                Rileks saat mendonor, dan banyak minum setelah mendonor. Kita bisa melanjutkan
+                                                kegiatan setelah mendonor, asal hindari aktivitas fisik yang berat.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-5">
+                        <a href="https://www.rhesusnegatif.com/">
+                            <img src="{{ asset('assets/files/poster.png') }}" alt="poster" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <script>
     $(document).ready(function () {
@@ -144,5 +256,3 @@
     })
     </script>
 @stop
-
-
