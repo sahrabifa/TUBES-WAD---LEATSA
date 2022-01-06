@@ -15,6 +15,13 @@
 </head>
 <body>
 
+<div class="container">
+    @if ($message = Session::get('error'))
+        <div class="alert alert-danger alert-block mt-3">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+        </div>
+    @endif
 
     <div class="my-5 bg-red100">
         <div class="row justify-content-center align-items-center text-center">
