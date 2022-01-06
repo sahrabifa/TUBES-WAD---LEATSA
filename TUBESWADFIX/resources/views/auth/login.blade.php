@@ -13,6 +13,15 @@
     <title>Login</title>
 </head>
 
+<body class="bg-red100">
+<div class="container">
+    @if ($message = Session::get('error'))
+        <div class="alert alert-danger alert-block mt-3">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+        </div>
+    @endif
+
     <div class="row mb-5">
         <div class="col-md-7 col-sm-12 mt-5">
             <img class="img-fluid" src="{{ asset('assets/files/login-banner.png') }}" alt="Banner Login">
