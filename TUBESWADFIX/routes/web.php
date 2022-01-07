@@ -25,3 +25,7 @@ Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register
 
 Route::get('/login', [\App\Http\Controllers\AuthController::class, 'index'])->name('login');
 Route::post('/login-process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login.process');
+
+Route::get('/donor/about', [\App\Http\Controllers\PMIController::class, 'aboutDonor'])->name('donor.about');
+Route::get('/blood-stock', [\App\Http\Controllers\PMIController::class, 'bloodStock'])->name('blood-stock');
+Route::get('/contact', [\App\Http\Controllers\PMIController::class, 'contact'])->name('contact');
