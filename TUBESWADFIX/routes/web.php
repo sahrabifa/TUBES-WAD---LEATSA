@@ -26,6 +26,18 @@ Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register
 Route::get('/login', [\App\Http\Controllers\AuthController::class, 'index'])->name('login');
 Route::post('/login-process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login.process');
 
+Route::middleware('auth')->group(function () {
+    Route::get('/me', [\App\Http\Controllers\AuthController::class, 'me'])->name('me');
+    Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
+    Route::post('/profile', [\App\Http\Controllers\AuthController::class, 'updateProfile'])->name('profile.update');
+
+    Route::get('/donor', [\App\Http\Controllers\PMIController::class, 'donor'])->name('donor');
+    Route::get('/donor/create', [\App\Http\Controllers\PMIController::class, 'donorCreate'])->name('donor.create');
+    Route::post('/donor', [\App\Http\Controllers\PMIController::class, 'donorStore'])->name('donor.store');
+    Route::get('/donor/{donor}/download', [\App\Http\Controllers\PMIController::class, 'downloadDonor'])->name('donor.download');
+
+    Route::get('/schedule/{schedule}/donor', [\App\Http\Controllers\PMIController::class, 'showScheduleDonor'])->name('schedule.show.donor');
+
 Route::get('/donor/about', [\App\Http\Controllers\PMIController::class, 'aboutDonor'])->name('donor.about');
 Route::get('/blood-stock', [\App\Http\Controllers\PMIController::class, 'bloodStock'])->name('blood-stock');
 Route::get('/contact', [\App\Http\Controllers\PMIController::class, 'contact'])->name('contact');
