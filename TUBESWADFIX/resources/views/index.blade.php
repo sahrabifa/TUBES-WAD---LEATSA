@@ -15,7 +15,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-md-4 col-sm-12 mt-5 text-center">
                         <div class="container">
@@ -43,7 +42,6 @@
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-md-4 col-sm-12 mt-5 text-center">
                         <div class="card h-100">
@@ -98,13 +96,11 @@
                                     <li><a href="">Kegiatan di Provinsi Sulawesi Barat</a></li>
                                     <li><a href="">Kegiatan di Provinsi Sumatera Selatan</a></li>
                                     <li><a href="">Kegiatan di Provinsi Sumatera Utara</a></li>
-
                                 </ol>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-md-8 col-sm-12 mt-5 text-center">
                         <div class="card">
@@ -140,7 +136,6 @@
                                                 Mengapa Kita Perlu Donor Darah?
                                             </p>
                                         </div>
-
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                              data-parent="#accordionExample">
                                             <div class="card-body">
@@ -165,7 +160,6 @@
                                                 Kenapa Ketika Membutuhkan Darah Prosesnya Lama ?
                                             </p>
                                         </div>
-
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                              data-parent="#accordionExample">
                                             <div class="card-body">
@@ -191,7 +185,6 @@
                                                 Apa Yang Harus Kita Persiapkan Sebelum Donor ?
                                             </p>
                                         </div>
-
                                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                              data-parent="#accordionExample">
                                             <div class="card-body">
@@ -206,7 +199,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4 col-sm-12 mt-5">
                         <a href="https://www.rhesusnegatif.com/">
                             <img src="{{ asset('assets/files/poster.png') }}" alt="poster" class="img-fluid w-100">
@@ -217,7 +209,6 @@
 
         </div>
     </div>
-
     <script>
     $(document).ready(function () {
         let ctx = $('#chart');
@@ -241,7 +232,6 @@
                 },
             ]
         };
-
         new Chart(ctx, {
             type: 'bar',
             data: data,
