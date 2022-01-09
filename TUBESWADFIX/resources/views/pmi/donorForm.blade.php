@@ -308,12 +308,10 @@
                     </div>
                 </div>
             </form>
-
             <p class="text-left">Dengan ini menyatakan bersedia menjadi pendonor darah yang dilasanakan oleh website Donor
                 Darah : Save a Live</p>
         </div>
     </div>
-
     <script>
     let donor = {};
     function store() {
@@ -325,7 +323,6 @@
             success: function (response) {
                 console.log(response);
                 donor = response.data;
-
                 $('#donor-id').html(donor.id);
                 $('#donor-name').html(donor.name);
                 $('#donor-gender').html(donor.gender);
@@ -337,7 +334,6 @@
             }
         });
     }
-
     function download()
     {
         window.open(`/donor/${donor['id']}/download`, '_blank')
