@@ -223,70 +223,70 @@
                                                  style="border: 2px solid red; padding: 10px;border-bottom-left-radius: 75px;  border-bottom-right-radius: 75px;">
                                                 <div class="col-3">
                                                     <img src="{{ asset('assets/files/blood.png') }}" alt="image" class="img-fluid">
-                                                </div>
-                                                <div class="col-9 float-left">
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Id</p>
-                                                        </div>
-                                                        <div class="col-1">
+                                               </div>
+                                               <div class="col-9 float-left">
+                                                   <div class="row">
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Id</p>
+                                                       </div>
+                                                       <div class="col-1">
                                                             <p class="text-dark float-left">:</p>
+                                                       </div>
+                                                       <div class="col-7">
+                                                           <p class="text-dark float-left" id="donor-id"></p>
                                                         </div>
+                                                   </div>
+                                                   <div class="row">
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Nama</p>
+                                                        </div>
+                                                       <div class="col-1">
+                                                           <p class="text-dark float-left">:</p>
+                                                       </div>
                                                         <div class="col-7">
-                                                            <p class="text-dark float-left" id="donor-id"></p>
-                                                        </div>
-                                                    </div>
+                                                           <p class="text-dark float-left" id="donor-name"></p>
+                                                       </div>
+                                                   </div>
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Nama</p>
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Jenis Kelamin</p>
                                                         </div>
-                                                        <div class="col-1">
-                                                            <p class="text-dark float-left">:</p>
-                                                        </div>
+                                                       <div class="col-1">
+                                                           <p class="text-dark float-left">:</p>
+                                                       </div>
                                                         <div class="col-7">
-                                                            <p class="text-dark float-left" id="donor-name"></p>
-                                                        </div>
-                                                    </div>
+                                                           <p class="text-dark float-left" id="donor-gender"></p>
+                                                       </div>
+                                                   </div>
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Jenis Kelamin</p>
-                                                        </div>
-                                                        <div class="col-1">
-                                                            <p class="text-dark float-left">:</p>
-                                                        </div>
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Alamat</p>
+                                                       </div>
+                                                       <div class="col-1">
+                                                           <p class="text-dark float-left">:</p>
+                                                       </div>
                                                         <div class="col-7">
-                                                            <p class="text-dark float-left" id="donor-gender"></p>
-                                                        </div>
-                                                    </div>
+                                                           <p class="text-dark float-left" id="donor-address"></p>
+                                                       </div>
+                                                   </div>
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Alamat</p>
-                                                        </div>
-                                                        <div class="col-1">
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Telepon</p>
+                                                       </div>
+                                                       <div class="col-1">
                                                             <p class="text-dark float-left">:</p>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="text-dark float-left" id="donor-address"></p>
-                                                        </div>
+                                                       </div>
+                                                       <div class="col-7">
+                                                           <p class="text-dark float-left" id="donor-phone"></p>
+                                                       </div>
                                                     </div>
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Telepon</p>
-                                                        </div>
-                                                        <div class="col-1">
-                                                            <p class="text-dark float-left">:</p>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="text-dark float-left" id="donor-phone"></p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <p class="text-dark float-left">Golongan Darah</p>
-                                                        </div>
-                                                        <div class="col-1">
-                                                            <p class="text-dark float-left">:</p>
-                                                        </div>
+                                                   <div class="row">
+                                                       <div class="col-4">
+                                                           <p class="text-dark float-left">Golongan Darah</p>
+                                                       </div>
+                                                       <div class="col-1">
+                                                           <p class="text-dark float-left">:</p>
+                                                       </div>
                                                         <div class="col-7">
                                                             <p class="text-dark float-left" id="donor-blood-type"></p>
                                                         </div>
