@@ -19,4 +19,31 @@
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
-                    
+                    </div>
+                    <div class="col-3">
+                        <label>Alamat</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="text" class="form-control" id="address" name="address" value="{{ $user['address'] }}" required>
+                            @error('address')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <label>Golongan Darah</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <select class="form-control" id="bloodType" name="blood_type" required>
+                                <option></option>
+                                <option value="A" @if($user['blood_type'] === 'A') selected @endif>A</option>
+                                <option value="AB" @if($user['blood_type'] === 'AB') selected @endif>AB</option>
+                                <option value="B" @if($user['blood_type'] === 'B') selected @endif>B</option>
+                                <option value="O" @if($user['blood_type'] === 'O') selected @endif>O</option>
+                            </select>
+                            @error('blood_type')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
