@@ -47,3 +47,25 @@
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
+                    </div>
+                    <div class="col-3">
+                        <label>No Hp</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="text" class="form-control" id="phone" name="phone" value="{{ $user['phone'] }}" required>
+                            @error('phone')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-12 text-right text-center">
+                        <button type="submit" class="btn btn-danger">SIMPAN</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+@stop
