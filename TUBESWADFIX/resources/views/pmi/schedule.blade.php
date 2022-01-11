@@ -47,46 +47,4 @@
                     <div class="card-body table-responsive">
                         <table class="table table-striped">
                             <thead>
-                            <tr>
-                                <th scope="col" class="text-center">No.</th>
-                                <th scope="col" class="text-center">Nama Instansi</th>
-                                <th scope="col" class="text-center">Alamat</th>
-                                <th scope="col" class="text-center">Jam</th>
-                                <th scope="col" class="text-center">Rencana Donor</th>
-                                <th scope="col" class="text-center">Aksi</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            @if (isset($schedules) and count($schedules) > 0)
-                                @foreach($schedules as $schedule)
-                                    <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $schedule['institute_name'] }}</td>
-                                        <td>{{ $schedule['address'] }}</td>
-                                        <td>{{ $schedule['time'] }}</td>
-                                        <td>{{ $schedule['donor_plan'] }}</td>
-                                        <td>
-                                            @if(auth()->check() and auth()->user()->isAdmin())
-                                                <a href="{{ url("schedule/{$schedule['id']}/donor") }}" type="button" class="btn btn-danger">Lihat</a>
-                                            @else
-                                                <form method="get" action="{{ route('donor.create') }}">
-                                                    <input type="hidden" name="schedule_id" value="{{ $schedule['id'] }}">
-                                                    <button type="submit" class="btn btn-danger">Daftar</button>
-                                                </form>
-                                            @endif
-                                        </td>
-                                    </tr>
-                                @endforeach
-                            @else
-                                <tr>
-                                    <td colspan="6" class="text-center">Tidak Ada Data</td>
-                                </tr>
-                            @endif
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-@stop
+                            
