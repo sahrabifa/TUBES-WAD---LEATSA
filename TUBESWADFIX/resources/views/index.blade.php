@@ -46,7 +46,7 @@
                     <div class="col-md-4 col-sm-12 mt-5 text-center">
                         <div class="card h-100">
                             <div class="card-header bg-red100 text-light text-left">
-                                <b> Kegiatan Donor </b> | 06 - 12 - 2021
+                                <b> Cari stok darah </b>
                             </div>
                             <form action="" class="overflow-auto p-3">
                                 <div class="card-body py-0 pt-3">
@@ -83,7 +83,7 @@
                     <div class="col-md-4 col-sm-12 mt-5 text-center">
                         <div class="card h-100">
                             <div class="card-header bg-red100 text-light text-left">
-                                <b> Kegiatan Donor </b> | 06 - 12 - 2021
+                                <b> Kegiatan Donor </b> | 17 - 01 - 2022
                             </div>
                             <div class="card-body">
                                 <ol class="text-left">
